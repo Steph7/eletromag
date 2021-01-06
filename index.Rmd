@@ -17,25 +17,30 @@ output: html_document
 <div class="row" style="padding-top: 30px;">
 <div class="col-sm-6">
 
-# **Campos Elétricos e suas componentes**
+# **Campos Elétricos e suas componentes**  
 
-This is a template example for lab journaling. Students in Matt Crump's Human Cognition and Performance Lab will use this template to learn R, and other things. Students can replace this text with more fun things. People not in my lab can use this too.
+**Fundamentos de Eletromagnetismo (UFMG)** 
 
-## How to use
+**Semestre 2020/2** 
 
-1. fork the repo for this website and follow instructions on read me to get set up. [https://github.com/CrumpLab/LabJournalWebsite](https://github.com/CrumpLab/LabJournalWebsite)
+**Turma TN1 - Prof. Carlos Heitor** 
 
-2. Blog/journal what you are doing in R, by editing the Journal.Rmd. See the [Journal page](https://crumplab.github.io/LabJournalWebsite/Journal.html) for an example of what to do to get started learning R.
+Esse trabalho tem como objetivo explicar os principais conceitos relacionados à campo elétrico e ao final resolver uma exercício que engloba os conceitos discutidos e nos proporciona um entendimento, assim como uma ilustração dos comportamentos dos campos elétricos envolvendo cargas pontuais de diferentes naturezas (dipolo elétrico, nesse caso).
 
-3. See the [links page](https://crumplab.github.io/LabJournalWebsite/Links.html) for lots of helpful links on learning R.
+Use as abas de navegação a cima, para acessar o conteúdo!
 
-4. Change everything to make it your own.
+## TEMA 2 - GRUPO 16
+## Integrantes:
+
+* Stephanie Ogando 
+* Paula Rodrigues 
+* Pedro Silva
 
 
 </div>
 <div class="col-sm-6">
 
-### [Crump Lab: Human Cognition and Performance](https://crumplab.github.io)
+### [](https://crumplab.github.io)
 
 <a href = "https://crumplab.github.io">
 ![](images/logo.png)
