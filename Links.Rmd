@@ -135,10 +135,10 @@ $~$
 
 $~$
 
-A fim de deixar a Equação válida ao longo de toda a extensão do Eixo X, $\left(-\infty < x < \infty \right)$ redefiniremos a equação levando em conta os intervalos abaixo:
+A fim de deixar a Equação válida ao longo de toda a extensão do Eixo X, $\left(-\infty < x < +\infty \right)$ redefiniremos a equação levando em conta os intervalos abaixo:
 
 $$
-\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left( \frac{-3}{|x|^{3}} +  \frac{7}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } -\infty < x < 0 \\ (2)\left( \frac{+3}{|x|^{3}} +   \frac{7}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } 0 < x < 0.4 \\ (3) \left( \frac{+3}{|x|^{3}} -   \frac{7}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando }  0.4 < x < +\infty \end{cases}
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left( \frac{-3}{|x|^{2}} +  \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, & \mbox{quando } -\infty < x < 0 \\ (2)\left( \frac{+3}{|x|^{2}} +   \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, & \mbox{quando } 0 < x < 0.4 \\ (3) \left( \frac{+3}{|x|^{2}} -   \frac{7}{|x - 0.4|^{2}} \right) \hat{\mathbf x}, & \mbox{quando }  0.4 < x < +\infty \end{cases}
 $$
 
 $~$
