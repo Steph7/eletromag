@@ -110,12 +110,16 @@ Que tal adicionar uma carga positiva e uma negativa? Esse cenário cria um dipol
 **Como o campo elétrico gerado por uma carga pontual interfere no campo elétrico gerado por uma outra carga pontual?** 
 **Qual será relação da natureza das cargas nesse sentido?** 
 
-O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, ou seja, cargas de mesma natureza ou mesmo sinal quando estão próximas tem um comportamento de repulsão entre si. Já cargas de sinais opostos estão próximas sua tendência é se aproximar ainda mais, logo o sentido do campo elétrico será para longe da carga pontual positiva e na direção da carga pontual negativa
+O sentido do campo elétrico é o mesmo que o da força que age sobre a carga, ou seja, cargas de mesma natureza ou mesmo sinal quando estão próximas tem um comportamento de repulsão entre si. Já cargas de sinais opostos estão próximas sua tendência é se aproximar ainda mais, logo o sentido do campo elétrico será para longe da carga pontual positiva e na direção da carga pontual negativa.
 
 
+<a href = "https://i.stack.imgur.com/JxCq5.png">
+![](images/posit-negativ.png)
+</a>
 
-
-
+<a href = "https://images.app.goo.gl/tnWtBjpfYN3Axf666">
+![](images/campos-dipolo.png)
+</a>
 
 
 
