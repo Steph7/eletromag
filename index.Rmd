@@ -1,7 +1,6 @@
 ---
 title: "Campos Elétricos"
 output: html_document
-theme: lumen
 ---
 
 <style type="text/css">
