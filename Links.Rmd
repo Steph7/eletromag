@@ -133,6 +133,9 @@ Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\p
 
 ## Para x < 0
 
+$$
+f(x) = \frac{-3}{x^2} + \frac{7}{(x - 0.4)^2}
+$$
 
 <center>
 ![FIGURA 5](images/1.png)
@@ -145,6 +148,9 @@ Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\p
 
 ## Para 0.4 < x < 0
 
+$$
+f(x) = \frac{3}{x^2} + \frac{7}{(x - 0.4)^2}
+$$
 
 <center>
 ![FIGURA 6](images/2.png)
@@ -156,6 +162,9 @@ Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\p
 
 ## Para x > 0.4
 
+$$
+f(x) = \frac{3}{x^2} - \frac{7}{(x - 0.4)^2}
+$$
 
 <center>
 ![FIGURA 7](images/3.png)
@@ -167,7 +176,11 @@ Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\p
 
 # Pontos em que o Campo elétrico é Nulo
 
+Para encontrar os pontos em que o Campo elétrico é nulo, temos que igual a função f(x) à zero. 
 
+Ao fazermos isso, encontramos apenas um ponto que pertence ao intervalo válido conforme definido anteriormente. 
+
+Esse ponto é quando x < 0.
 
 
 
