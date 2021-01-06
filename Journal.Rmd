@@ -37,23 +37,53 @@ Observe a imagem a seguir para visualizar o campo elétrico gerado por cada uma 
 
 ![](images/cargas-eletricas.jpeg)
 
+## Como determinar um campo elétrico a partir dessas cargas pontuais?
+
+Para determinar o campo elétrico produzido por uma distância r de uma carga pontual q, colocamos uma carga de prova qo nesse ponto.
+
+De acordo com a **Lei de Coulomb**, o módulo da força eletrostática que age sobre qo é dado por:
+
+<center> Definindo a Lei de Coulumb:  </center>
+$$
+\vec{F_e}=k_{e}{\frac {qq_{0}}{r^{2}}}\hat{\mathbf r}
+$$
+
+<center> Constante de Permissividade Elétrica: </center>
+$$
+k_e = \frac{1}{{4\pi  \varepsilon _0 }} \\
+$$
+
+<center> $k_e$ ≈ 8.988 x $10^9 N {m^2}/{C^2}$ </center>
+
+
+
 # Campo  elétrico
 
-**O que é um campo elétrico?** 
+**O que é um campo elétrico?**
 **Qual é o limite de um campo elétrico?**
 
 Cargas elétricas modificam as propriedades elétricas do espaço à sua volta, causando um campo elétrico. Esse campo elétrico desempenha a função de transmissor das interações entre cargas elétricas, podendo ser de afastamento ou de aproximação, de acordo com o sinal da carga que o produziu, sendo ele uma grandeza vetorial que depende do ponto no espaço em que ela se encontra.
 
 
 ### Fórmula
+**Como calcular matemáticamento um campo elétrico?**
 
 A expressão abaixo nos permite calcular a intensidade do campo elétrico, quaisquer que sejam as cargas que criam esse campo.
 
 <center> Definindo Campo Elétrico a partir de Força Elétrica:  </center>
 $$
-\vec{E}≡\frac{\vec{F_e}} {q_0}
+{\vec{E_i}}= \frac{\vec{F_e}} {q_0}
 $$
 
+Para encontrarmos o módulo do vetor campo elétrico de uma carga pontual é dado por:
+
+$$
+{\vec{E_i}}= \frac{\vec{F_e}} {q_0} = \frac{1}{q_0} \frac{1}{4\pi\varepsilon_0} \frac{qq_{0}}{r^{2}} \hat{\mathbf r} = \frac{1}{{4\pi\varepsilon _0}} \frac{q}{r^{2}} \hat{\mathbf r}
+$$
+
+$$
+{\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{q}{r^{2}} \hat{\mathbf r}
+$$
 
 ### Simulação
 
