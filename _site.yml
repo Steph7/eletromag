@@ -1,11 +1,11 @@
-name: "MyLabJournal"
+name: "Campos Elétricos"
 navbar:
-  title: "MyLabJournal"
+  title: "Campos Elétricos"
   left:
-    - text: "Home"
+    - text: "O Trabalho"
       href: index.html
-    - text: "Journal"
+    - text: "Conceitos"
       href: Journal.html
-    - text: "Links"
+    - text: "Questão"
       href: Links.html
 output_dir: "docs"
