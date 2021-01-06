@@ -165,7 +165,7 @@ Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo
 
 <center>
 <a href = "https://www.geeksforgeeks.org/matplotlib-pyplot-streamplot-in-python/">
-![](images/dipolo.png){width=80%}
+![](images/dipolo.png){width=60%}
 
 </a>
 </center>
