@@ -200,8 +200,14 @@ x=\frac{-2.4+\sqrt{13.44}}{8} = 0.15825 \\
 x=\frac{-2.4-\sqrt{13.44}}{8} = -0.7582
 $$
 
-Desse modo concluimos que a única raíz válida é a **x = -0.7582**. 
+Desse modo concluimos que a única raíz válida é a **x = $-0.7582$**. 
 
+
+<center>
+<a href = "https://images.app.goo.gl/mMBJJ4nzahjAyNZM6">
+![](images/gif.gif)
+</a>
+</center>
 
 
 
