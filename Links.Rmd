@@ -126,8 +126,12 @@ $$
 
 b) Desenhe  ${E(x)}$ como função de X.
 
-Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\pi\varepsilon _0}}$ é um número muito pequeno, e o computador pode interpretá-lo como zero, vamos arredondá-lo para 1, e assim, tornar possível a visualização gráfica do Campo elétrico.
+Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\pi\varepsilon _0}}$ é um número muito pequeno, e o computador pode interpretá-lo como zero, vamos arredondá-lo para 1, e assim, tornar possível a visualização gráfica do Campo elétrico. 
 
+
+# Visualizar gráfico do campo elétrico
+
+<iframe src="https://www.geogebra.org/graphing/jyufza6r?embed" width="800" height="600" allowfullscreen style="border: 1px solid #e4e4e4;border-radius: 4px;" frameborder="0"></iframe>
 
 
 
@@ -139,8 +143,7 @@ $$
 
 <center>
 ![FIGURA 5](images/1.png)
-</center>
-
+</center> 
 
 
 
@@ -154,7 +157,7 @@ $$
 
 <center>
 ![FIGURA 6](images/2.png)
-</center>
+</center> 
 
 
 
@@ -168,7 +171,7 @@ $$
 
 <center>
 ![FIGURA 7](images/3.png)
-</center>
+</center> 
 
 
 
@@ -178,14 +181,27 @@ $$
 
 Para encontrar os pontos em que o Campo elétrico é nulo, temos que igual a função f(x) à zero. 
 
-Ao fazermos isso, encontramos apenas um ponto que pertence ao intervalo válido conforme definido anteriormente. 
+Isso uma vez que ao plotarmos os gráficos das funções, já identificamos os potenciais pontos em que f(x) = 0. E ao fazermos isso, encontramos apenas um ponto que pertence ao intervalo válido conforme definido anteriormente. 
 
-Esse ponto é quando x < 0.
+Esse ponto está localizando no intervalo (1), quando x < 0.
+
+$$
+f(x) = \frac{-3}{x^2} + \frac{7}{(x - 0.4)^2} = 0
+$$
+Simplificando a equação, temos:
+
+$$
+3\left(x-0.4\right)^2+7x^2=0
+$$
+E encontramos as seguintes raízes:
+
+$$
+x=\frac{-2.4+\sqrt{13.44}}{8} = 0.15825 \\
+x=\frac{-2.4-\sqrt{13.44}}{8} = -0.7582
+$$
+
+Desse modo concluimos que a única raíz válida é a **x = -0.7582**. 
 
 
 
-# Visualizar gráfico do campo elétrico
-
-
-<iframe src="https://trinket.io/embed/glowscript/0924a7e482" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
 
