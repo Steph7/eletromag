@@ -1,11 +1,176 @@
 ---
 title: "Questão"
-output: html_document
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
 ---
+
+Uma carga pontual Q1=3μC está localizada na origem e uma carga Q2=-7μC está a 0,4 m do eixo x, num sistema Cartesiano.  Determine o campo elétrico E = E(x) î em todos os pontos do eixo x. Desenhe E(x) como função de x,  e finalmente encontre em quais pontos o campo é nulo.
+
+<center>
+<a href = "https://virtual.ufmg.br/20202/mod/data/view.php?id=122660">
+![](images/Questao2.png)
+</a>
+</center>
+
+# Definindo Campo elétrico (cargas pontuais)
+
+a) Determine o campo elétrico, em todos os pontos do eixo X.
+
+<center>
+![FIGURA 1](images/)
+</center>
+
+
+$\vec{E(x)} = E(x) \hat{\mathbf i}$
+
+Campo Elétrico de $Q_1$:
+
+$$
+{\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{Q_1}{r^{2}} \hat{\mathbf r}
+$$
+
+Analisando o vetor posição $ \hat{\mathbf r}$:
+Considerando qualquer ponto ao longo do Eixo X 
+
+$$
+r = x \hat{\mathbf x} \\
+r = \sqrt{x^2} = |x| \\
+\hat{\mathbf r} = \frac{r}{|r|} = \left(\frac{x}{|x|} \right) \hat{\mathbf x}
+$$
+
+ Assim: 
+
+$$
+{\vec{E_1}}=  \frac{Q_1}{{4\pi\varepsilon _0}} \frac{1}{|x|^{2}} \frac{x}{|x|} \hat{\mathbf x} 
+$$
+$$
+\vec{E_1} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x}
+$$
+
+Como o campo elétrico $\vec{E_1}$ aponta na diração x > 0 (à direita) e para x < 0 (à esquerda), isso levando em consideração que a carga $Q_1$ está localizada no ponto x = 0.
+
+
+<center>
+![FIGURA 2](images/)
+</center>
+
+
+
+O mesmo pode ser observado na carga $Q_2$, e portanto, definimos o campo elétrico $\vec{E_2}$ da seguinte forma:
+
+$$
+\vec{E_2} = \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
+$$
+
+A direção do campo $\vec{E_2}$ varia (no eixo X), como ilustrado na figura abaixo.
+
+<center>
+![FIGURA 3](images/)
+</center>
+
+
+
+# Definindo Campo elétrico TOTAL
+
+O campo elétrico total $\vec{E_{T}}$ é encontrado a partir da soma dos campos $\vec{E_1}$ e $\vec{E_2}$.
+
+$$
+\vec{E_{T}} = \vec{E_1} + \vec{E_2}
+$$
+
+Assim: 
+
+$$
+\vec{E_{T}} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x} +  \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
+$$
+Colocando a parte comum em evidência, temos:
+
+$$
+\vec{E_{T}} = \frac{1}{{4\pi\varepsilon _0}} \left[ Q_1 \frac{x}{|x|^{3}}+  Q_2 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
+$$
+
+Como: 
+
+$$
+Q_1 = +3μC = +3 \cdot 10^{-6}C \\
+Q_2 = -7μC = -7 \cdot 10^{-6}C \\
+$$
+
+Chegamos à Equação que determinar o campo elétrico total $\vec{E_{T}}$:
+
+$$
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \left[ 3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
+$$
+
+Conforme ilustrado na figura 4, a direção dos campos $\vec{E_{1}}$ e $\vec{E_{2}}$ se invertem em alguns momentos ao longo do Eixo X.
+
+<center>
+![FIGURA 4](images/)
+</center>
+
+
+
+A fim de deixar a Equação válida ao longo de toda a extensão do Eixo X, $\left(-\infty < x < \infty \right)$ redefiniremos a equação levando em conta os intervalos abaixo:
+
+$$
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left(-3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } -\infty < x < 0 \\ (2)\left(+3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } 0 < x < 0.4 \\ (3) \left(+3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando }  0.4 < x < \infty \end{cases}
+$$
+
+# Gráficos do Campo Elétrico Total
+
+b) Desenhe  ${E(x)}$ como função de X.
+
+Com o objetivo de evitar erros de arredondamento, visto que $\frac{10^{-6}}{{4\pi\varepsilon _0}}$ é um número muito pequeno, e o computador pode interpretá-lo como zero, vamos arredondá-lo para 1, e assim, tornar possível a visualização gráfica do Campo elétrico.
+
+
+
+
+## Para x < 0
+
+
+<center>
+![FIGURA 5](images/)
+</center>
+
+
+
+
+
+
+## Para 0.4 < x < 0
+
+
+<center>
+![FIGURA 6](images/)
+</center>
+
+
+
+
+
+## Para x > 0.4
+
+
+<center>
+![FIGURA 7](images/)
+</center>
+
+
+
+
+
+# Pontos em que o Campo elétrico é Nulo
+
+
+
+
 
 # Visualizar gráfico do campo elétrico
 
 
 <iframe src="https://trinket.io/embed/glowscript/0924a7e482" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe>
-
 

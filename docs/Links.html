@@ -19,6 +19,9 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -248,6 +251,69 @@ $(document).ready(function () {
 
 
 
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+
 
 </head>
 
@@ -255,6 +321,16 @@ $(document).ready(function () {
 
 
 <div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
 
 
 
@@ -297,6 +373,107 @@ $(document).ready(function () {
 </div>
 
 
+<p>Uma carga pontual Q1=3μC está localizada na origem e uma carga Q2=-7μC está a 0,4 m do eixo x, num sistema Cartesiano. Determine o campo elétrico E = E(x) î em todos os pontos do eixo x. Desenhe E(x) como função de x, e finalmente encontre em quais pontos o campo é nulo.</p>
+<center>
+<a href = "https://virtual.ufmg.br/20202/mod/data/view.php?id=122660"> <img src="images/Questao2.PNG" /> </a>
+</center>
+<div id="definindo-campo-elétrico-cargas-pontuais" class="section level1">
+<h1>Definindo Campo elétrico (cargas pontuais)</h1>
+<ol style="list-style-type: lower-alpha">
+<li>Determine o campo elétrico, em todos os pontos do eixo X.</li>
+</ol>
+<center>
+<img src="images/" alt="FIGURA 1" />
+</center>
+<p><span class="math inline">\(\vec{E(x)} = E(x) \hat{\mathbf i}\)</span></p>
+<p>Campo Elétrico de <span class="math inline">\(Q_1\)</span>:</p>
+<p><span class="math display">\[
+{\vec{E_i}}=  \frac{1}{{4\pi\varepsilon _0}} \frac{Q_1}{r^{2}} \hat{\mathbf r}
+\]</span></p>
+<p>Analisando o vetor posição $ $: Considerando qualquer ponto ao longo do Eixo X</p>
+<p><span class="math display">\[
+r = x \hat{\mathbf x} \\
+r = \sqrt{x^2} = |x| \\
+\hat{\mathbf r} = \frac{r}{|r|} = \left(\frac{x}{|x|} \right) \hat{\mathbf x}
+\]</span></p>
+<p>Assim:</p>
+<p><span class="math display">\[
+{\vec{E_1}}=  \frac{Q_1}{{4\pi\varepsilon _0}} \frac{1}{|x|^{2}} \frac{x}{|x|} \hat{\mathbf x} 
+\]</span> <span class="math display">\[
+\vec{E_1} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x}
+\]</span></p>
+<p>Como o campo elétrico <span class="math inline">\(\vec{E_1}\)</span> aponta na diração x &gt; 0 (à direita) e para x &lt; 0 (à esquerda), isso levando em consideração que a carga <span class="math inline">\(Q_1\)</span> está localizada no ponto x = 0.</p>
+<center>
+<img src="images/" alt="FIGURA 2" />
+</center>
+<p>O mesmo pode ser observado na carga <span class="math inline">\(Q_2\)</span>, e portanto, definimos o campo elétrico <span class="math inline">\(\vec{E_2}\)</span> da seguinte forma:</p>
+<p><span class="math display">\[
+\vec{E_2} = \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
+\]</span></p>
+<p>A direção do campo <span class="math inline">\(\vec{E_2}\)</span> varia (no eixo X), como ilustrado na figura abaixo.</p>
+<center>
+<img src="images/" alt="FIGURA 3" />
+</center>
+</div>
+<div id="definindo-campo-elétrico-total" class="section level1">
+<h1>Definindo Campo elétrico TOTAL</h1>
+<p>O campo elétrico total <span class="math inline">\(\vec{E_{T}}\)</span> é encontrado a partir da soma dos campos <span class="math inline">\(\vec{E_1}\)</span> e <span class="math inline">\(\vec{E_2}\)</span>.</p>
+<p><span class="math display">\[
+\vec{E_{T}} = \vec{E_1} + \vec{E_2}
+\]</span></p>
+<p>Assim:</p>
+<p><span class="math display">\[
+\vec{E_{T}} = \frac{Q_1}{{4\pi\varepsilon _0}} \frac{x}{|x|^{3}} \hat{\mathbf x} +  \frac{Q_2}{{4\pi\varepsilon _0}} \frac{x - 0.4}{|x - 0.4|^{3}} \hat{\mathbf x}
+\]</span> Colocando a parte comum em evidência, temos:</p>
+<p><span class="math display">\[
+\vec{E_{T}} = \frac{1}{{4\pi\varepsilon _0}} \left[ Q_1 \frac{x}{|x|^{3}}+  Q_2 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
+\]</span></p>
+<p>Como:</p>
+<p><span class="math display">\[
+Q_1 = +3μC = +3 \cdot 10^{-6}C \\
+Q_2 = -7μC = -7 \cdot 10^{-6}C \\
+\]</span></p>
+<p>Chegamos à Equação que determinar o campo elétrico total <span class="math inline">\(\vec{E_{T}}\)</span>:</p>
+<p><span class="math display">\[
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \left[ 3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right] \hat{\mathbf x}
+\]</span></p>
+<p>Conforme ilustrado na figura 4, a direção dos campos <span class="math inline">\(\vec{E_{1}}\)</span> e <span class="math inline">\(\vec{E_{2}}\)</span> se invertem em alguns momentos ao longo do Eixo X.</p>
+<center>
+<img src="images/" alt="FIGURA 4" />
+</center>
+<p>A fim de deixar a Equação válida ao longo de toda a extensão do Eixo X, <span class="math inline">\(\left(-\infty &lt; x &lt; \infty \right)\)</span> redefiniremos a equação levando em conta os intervalos abaixo:</p>
+<p><span class="math display">\[
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left(-3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, &amp; \mbox{quando } -\infty &lt; x &lt; 0 \\ (2)\left(+3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, &amp; \mbox{quando } 0 &lt; x &lt; 0.4 \\ (3) \left(+3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, &amp; \mbox{quando }  0.4 &lt; x &lt; \infty \end{cases}
+\]</span></p>
+</div>
+<div id="gráficos-do-campo-elétrico-total" class="section level1">
+<h1>Gráficos do Campo Elétrico Total</h1>
+<ol start="2" style="list-style-type: lower-alpha">
+<li>Desenhe <span class="math inline">\({E(x)}\)</span> como função de X.</li>
+</ol>
+<p>Com o objetivo de evitar erros de arredondamento, visto que <span class="math inline">\(\frac{10^{-6}}{{4\pi\varepsilon _0}}\)</span> é um número muito pequeno, e o computador pode interpretá-lo como zero, vamos arredondá-lo para 1, e assim, tornar possível a visualização gráfica do Campo elétrico.</p>
+<div id="para-x-0" class="section level2">
+<h2>Para x &lt; 0</h2>
+<center>
+<img src="images/" alt="FIGURA 5" />
+</center>
+</div>
+<div id="para-0.4-x-0" class="section level2">
+<h2>Para 0.4 &lt; x &lt; 0</h2>
+<center>
+<img src="images/" alt="FIGURA 6" />
+</center>
+</div>
+<div id="para-x-0.4" class="section level2">
+<h2>Para x &gt; 0.4</h2>
+<center>
+<img src="images/" alt="FIGURA 7" />
+</center>
+</div>
+</div>
+<div id="pontos-em-que-o-campo-elétrico-é-nulo" class="section level1">
+<h1>Pontos em que o Campo elétrico é Nulo</h1>
+</div>
 <div id="visualizar-gráfico-do-campo-elétrico" class="section level1">
 <h1>Visualizar gráfico do campo elétrico</h1>
 <iframe src="https://trinket.io/embed/glowscript/0924a7e482" width="100%" height="356" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen>
@@ -305,6 +482,8 @@ $(document).ready(function () {
 
 
 
+</div>
+</div>
 
 </div>
 
@@ -337,6 +516,32 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

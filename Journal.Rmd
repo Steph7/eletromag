@@ -159,6 +159,12 @@ Em que E1  é o campo elétrico que seria criado somente pela carga pontual 1. A
 
 **Campo  elétrico produzido por dipolo elétrico** 
 
+<center>
+<a href = "http://mw.concord.org/modeler/showcase/electrostatics/dipole.html">
+![](images/dipole.gif)
+</a>
+</center>
+
 Duas partículas carregadas de módulo q e sinais opostos, separadas por uma distância d recebem o nome de dipolo elétrico.
 
 Por simetria, o campo elétrico $\vec{E_p}$ no ponto P deve ser paralelo ao eixo do dipolo.

@@ -42,7 +42,7 @@ Use as abas de navegação a cima, para acessar o conteúdo!
 
 ### [](https://crumplab.github.io)
 
-<a href = "https://crumplab.github.io">
-![](images/logo.png)
+<a href = "https://cds.cern.ch/record/1400571/files/CoulombsLaw.png">
+![](images/CoulombsLaw.png)
 </a>
 </div>
