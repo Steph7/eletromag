@@ -24,6 +24,9 @@ $~$
 
 <center>
 ![FIGURA 1](images/fig1.png)
+
+
+
 </center>
 
 $~$
@@ -61,6 +64,8 @@ Como o campo elétrico $\vec{E_1}$ aponta na diração x > 0 (à direita) e para
 
 <center>
 ![FIGURA 2](images/fig2.png)
+
+
 </center>
 
 $~$
@@ -76,6 +81,10 @@ A direção do campo $\vec{E_2}$ varia (no eixo X), como ilustrado na figura aba
 
 <center> 
 ![FIGURA 3](images/fig3.png)
+
+
+
+
 </center> 
 
 $~$
@@ -118,6 +127,10 @@ $~$
 
 <center>
 ![FIGURA 4](images/fig4.png)
+
+
+
+
 </center> 
 
 $~$
@@ -125,7 +138,7 @@ $~$
 A fim de deixar a Equação válida ao longo de toda a extensão do Eixo X, $\left(-\infty < x < \infty \right)$ redefiniremos a equação levando em conta os intervalos abaixo:
 
 $$
-\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left(-3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } -\infty < x < 0 \\ (2)\left(+3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } 0 < x < 0.4 \\ (3) \left(+3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando }  0.4 < x < \infty \end{cases}
+\vec{E_{T}} = \frac{10^{-6}}{{4\pi\varepsilon _0}} \begin{cases} (1) \left(-3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } -\infty < x < 0 \\ (2)\left(+3 \frac{x}{|x|^{3}} +  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando } 0 < x < 0.4 \\ (3) \left(+3 \frac{x}{|x|^{3}} -  7 \frac{x - 0.4}{|x - 0.4|^{3}} \right) \hat{\mathbf x}, & \mbox{quando }  0.4 < x < +\infty \end{cases}
 $$
 
 $~$
@@ -189,6 +202,10 @@ $~$
 Para encontrar os pontos em que o Campo elétrico é nulo, temos que igual a função f(x) à zero. 
 
 Isso uma vez que ao plotarmos os gráficos das funções, já identificamos os potenciais pontos em que f(x) = 0. E ao fazermos isso, encontramos apenas um ponto que pertence ao intervalo válido conforme definido anteriormente. 
+
+É válido comentar que em um primeiro momento, podemos ter uma impressão de que era possível existir um outro ponto nulo quando x > 0.4, principalmente se levarmos em conta que os campos estão em direções opostas nesse intervarlo (como é possível ver na figura 4).
+
+Por outro lado, a mesma figura reforça a impossibilidade de existir um ponto nulo quando 0 < x < 0.4, isso em função de que nesse intervalo $\vec{E_1}$ e $\vec{E_2}$ estão na mesma direção, e portanto se somam.
 
 Esse ponto está localizando no intervalo (1), quando x < 0. 
 

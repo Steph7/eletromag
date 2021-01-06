@@ -190,7 +190,7 @@ $~$
 
 ## Curiosidade!
 
-A partir do código abaixo, é possível gerar vários gráficos de campos elétricos adionando cargas alternadas e igualmente espaçadas.
+A partir do código abaixo, é possível gerar vários gráficos de campos elétricos adicionando cargas alternadas e igualmente espaçadas.
 
 Para ver o resultado desses campos, siga as instruções abaixo e realize as alterações na linha 27!
 
